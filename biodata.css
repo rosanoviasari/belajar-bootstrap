@@ -1,0 +1,38 @@
+@import"./content-style.css";
+
+:root{
+    --navbar-height: 56px;
+    --footer-height: 72px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+.custom-bs-navbar{
+background: #ffff;
+height: var(--navbar-height);
+}
+
+.my-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: var(--footer-height);
+    background: rgb(255, 218, 234);
+    padding: 20px 20px;
+}
+
+.my-footer address{
+    color: rgb(94, 0, 0);
+    margin: auto;
+}
+
+.content-section{
+    min-height: calc(100% - var(--navbar-height) - var(--footer-height));  
+}
