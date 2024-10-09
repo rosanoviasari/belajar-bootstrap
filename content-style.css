@@ -1,6 +1,6 @@
 
 .avatar{
-    width: 75px;
+    width: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -33,4 +33,45 @@
 .social-list > .social-item:last-child > a{
     background: white;
     color: blue;
+}
+.job-title{
+    font-weight: bold;
+
+}
+.job-desc{
+    font-weight: lighter;
+}
+.carousel-photo{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    gap: 50%;
+}
+.gambar-biasa{
+    width: 300px;
+    height: 400px;
+    object-position: center;
+}
+.program-list{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.program-list > .program-item > a > i{
+    margin-right: 8px;
+}
+.program-list > .program-item:first-child > a{
+    background: white;
+    color: red;
+}
+.program-list > .program-item:nth-child(2) > a{
+    background: white;
+    color: yellow;
+}
+.program-list > .program-item:last-child > a{
+    background: white;
+    color: rgb(0, 0, 0);
 }
