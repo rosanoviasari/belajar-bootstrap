@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosa Noviasari</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../biodata.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../gallery.html">
+</head>
+<body>
+    <!--Ini bagian navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Rosa Noviasari's Profile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Biodata Saya</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog saya
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./daftar.html">Daftar Artikel</a></li>
+                <li><a class="dropdown-item" href="./form.html">Buat Artikel</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <div class="content-section">
+        <div class="container py-3">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Create new post</h4>
+                    <label for="text" class="form-label">Title</label>
+                    <input type="text" id="judul-artikel" class="form-control" placeholder="Input article title">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="description">Blog description</label>
+                            <textarea id="deskripsi-artikel" class="form-control" rows="4" cols="50"></textarea> 
+                        </div>                         
+                    </div>
+                    <p>Select category</p>
+                    <div class="row form-horizontal mb-2">
+                        <div class="col-sm-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="firstCheckbox">
+                                <label class="form-check-label" for="firstCheckbox">Food</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="secondCheckbox">
+                                <label class="form-check-label" for="secondCheckbox">Drink</label>
+                            </div>
+                        </div>
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Save">                                                
+                </div>                
+            </div>
+        </div>
+        <!-- End of content section -->
+    </div>
+
+    <!--Ini Footer-->
+    <footer class="my-footer">
+        <marquee>
+            <address>&copy;2024 - All Right Reserved</address>
+        </marquee>
+    </footer>
+    <!-- End of Footer -->        
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

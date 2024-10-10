@@ -1,9 +1,11 @@
-
+/* ini bagian profile picture */
 .avatar{
     width: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* Ini bagian social media icon */
 .social-list{
     list-style: none;
     padding: 0;
@@ -12,6 +14,12 @@
     flex-direction: row;
     gap: 20px;
 }
+@media (max-width: 768px) {
+    .social-list {
+        flex-direction: column;
+    }
+}
+
 .social-list > .social-item > a{
     border: 1px solid rgb(250, 217, 247);
     padding: 8px 12px;
@@ -34,6 +42,7 @@
     background: white;
     color: blue;
 }
+/* Ini bagian experience */
 .job-title{
     font-weight: bold;
 
@@ -41,6 +50,8 @@
 .job-desc{
     font-weight: lighter;
 }
+
+/* Ini bagian gallery */
 .carousel-photo{
     width: 800px;
     height: 500px;
@@ -52,6 +63,8 @@
     height: 400px;
     object-position: center;
 }
+
+/* Ini bagian program tools */
 .program-list{
     list-style: none;
     padding: 0;
@@ -61,17 +74,21 @@
     gap: 20px;
 }
 .program-list > .program-item > a > i{
+    font-size: 24px;
     margin-right: 8px;
 }
-.program-list > .program-item:first-child > a{
+.program-list > .program-item:first-child > a:hover{
+    font-size: x-large;
     background: white;
     color: red;
 }
-.program-list > .program-item:nth-child(2) > a{
+.program-list > .program-item:nth-child(2) > a:hover{
+    font-size: x-large;
     background: white;
     color: yellow;
 }
-.program-list > .program-item:last-child > a{
+.program-list > .program-item:last-child > a:hover{
+    font-size: x-large;
     background: white;
     color: rgb(0, 0, 0);
 }
